@@ -1,0 +1,232 @@
+body {
+  background-color: turquoise;
+}
+
+/* CSS VARIABLES */
+:root {
+  /* Colors */
+  --primary-color: #007bff; /* Blue */
+  --secondary-color: #6c757d; /* Gray */
+  --accent-color: #ff5722; /* Orange */
+  --background-color: #fefefe; /* White*/
+  --text-color: #0e0e0e; /* Black */
+
+  /* Font */
+  --font-family: "Inter", Arial, sans-serif;
+  --font-size-base: 16px;
+  --font-size-heading: 32px;
+  --font-size-subheading: 24px;
+  --font-size-small: 14px;
+}
+
+/* GLOBAL */
+/* Flexbox Utilities */
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Flexbox wrap */
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+/* Flexbox center placements */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-evenly {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+/* Flexbox alignments */
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+/* Flexbox gaps */
+.gap-small {
+  gap: 10px;
+}
+
+.gap-big {
+  gap: 20px;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.headerLogo {
+  padding: 8px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.navigation {
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* MAIN */
+section {
+  height: 100vh;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.heroText {
+  width: 50%;
+}
+
+.heroImg {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.aboutText {
+  width: 50%;
+}
+
+.aboutImg {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+}
+
+.projects {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  border: 3px solid black;
+  border-radius: 10px;
+  max-width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardText {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: forestgreen;
+}
